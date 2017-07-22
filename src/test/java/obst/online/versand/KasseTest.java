@@ -1,6 +1,6 @@
 package obst.online.versand;
 
-import static obst.online.versand.ProduktTyp.APFEL;
+import static obst.online.versand.ObstTyp.APFEL;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
@@ -18,7 +18,7 @@ public class KasseTest {
 	@Test
 	public void getPreisVonZweiAepfeln() {
 		Warenkorb warenkorb = new Warenkorb();
-		warenkorb.add(new Produkt(2, APFEL));
+		warenkorb.add(new Ware(2, APFEL));
 
 		int gesamtPreis = kasse.getGesamtPreis(warenkorb);
 
