@@ -25,7 +25,7 @@ public class Warenkorb {
 
 		int gesamtPreis = 0;
 		for (Produkt produkt : inhalt) {
-			gesamtPreis += produkt.getPreisInCt();
+			gesamtPreis += produkt.getPreis();
 		}
 
 		return gesamtPreis;
