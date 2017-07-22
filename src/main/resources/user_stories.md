@@ -17,7 +17,7 @@ Der Gesamtpreis eines Warenkorbs ergibt sich als Addition der Einzelpreise.
 Der Einzelpreis eines Produkts ist normalerweise der Preis pro Einheit x Menge. 
 
 ## User Stories
-1. Als Ladenbesitzer möchte ich, dass für Birnen der Preis ab einer Menge von 5 auf 60 Ct für jede weitere Birne reduziert wird.
+1. Als Ladenbesitzer möchte ich, dass für Birnen der Preis ab der fünften Birne auf 60 Ct für jede weitere Birne reduziert wird.
 2. Als Ladenbesitzer möchte ich, dass beim Kauf von 4 Wassermelonen der Preis von 3 berechnet wird.
 3. Als Ladenbesitzer möchte ich, dass bis zu einem Bestellwert von 1000 Ct ein Porto von 400 Ct fällig wird.
 4. Als Ladenbesitzer möchte ich, dass ab einem Gewicht von 5kg ein Porto von 500 Ct auf den Preis aufgeschlagen wird.
