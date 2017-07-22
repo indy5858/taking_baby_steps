@@ -1,4 +1,4 @@
-package obstOnlineVersand;
+package obst.online.versand;
 
 public interface Produkt {
 

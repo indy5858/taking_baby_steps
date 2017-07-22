@@ -1,12 +1,13 @@
-package obstOnlineVersand;
+package obst.online.versand;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Warenkorp {
+public class Warenkorb {
 
 	private List<Produkt> inhalt;
 
-	public Warenkorp() {
+	public Warenkorb() {
 		inhalt = new ArrayList<>();
 	}
 

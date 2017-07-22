@@ -1,9 +1,13 @@
-package obstOnlineVersand;
+package obst.online.versand;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import obst.online.versand.Apfel;
+import obst.online.versand.Kasse;
+import obst.online.versand.Warenkorb;
 
 public class KasseTest {
 
@@ -16,10 +20,10 @@ public class KasseTest {
 
 	@Test
 	public void getPreisVonZweiAepfeln() {
-		Warenkorp warenkorp = new Warenkorp();
-		warenkorp.add(2, new Apfel());
+		Warenkorb warenkorb = new Warenkorb();
+		warenkorb.add(2, new Apfel());
 
-		int gesamtPreis = kasse.getGesamtPreis(warenkorp);
+		int gesamtPreis = kasse.getGesamtPreis(warenkorb);
 
 		assertEquals(100, gesamtPreis);
 	}

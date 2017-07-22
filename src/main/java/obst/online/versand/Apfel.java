@@ -1,4 +1,5 @@
-package obstOnlineVersand;
+package obst.online.versand;
+
 public class Apfel implements Produkt {
 
 	private final int preisInCt = 50;
